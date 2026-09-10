@@ -1,0 +1,4 @@
+feature,accuracy,precision,recall,f1,roc_auc,pr_auc
+Milk_Temperature,1.0,1.0,1.0,1.0,1.0,1.0000000000000002
+Milk_Conductivity,0.9916666666666667,1.0,0.96,0.9795918367346939,0.9999999999999999,1.0000000000000002
+Milk_Yield,1.0,1.0,1.0,1.0,1.0,1.0

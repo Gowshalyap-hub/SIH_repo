@@ -1,0 +1,44 @@
+{
+    "model_name": "LogisticRegression",
+    "features": [
+        "Milk_Temperature",
+        "Milk_Conductivity",
+        "Milk_Yield"
+    ],
+    "target": "class1",
+    "random_seed": 42,
+    "training_rows": 560,
+    "validation_rows": 120,
+    "test_rows": 120,
+    "class_distribution": {
+        "train": {
+            "0": 442,
+            "1": 118
+        },
+        "val": {
+            "0": 94,
+            "1": 26
+        },
+        "test": {
+            "0": 95,
+            "1": 25
+        }
+    },
+    "metrics": {
+        "model": "LogisticRegression",
+        "split": "test",
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0,
+        "tn": 95,
+        "fp": 0,
+        "fn": 0,
+        "tp": 25
+    },
+    "dataset_type": "Cross-sectional",
+    "prediction_type": "Current-state Classification",
+    "limitations": "No longitudinal timeline. Not a 7-14 day forecast."
+}

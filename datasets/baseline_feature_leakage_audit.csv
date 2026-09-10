@@ -1,0 +1,6 @@
+dataset,column,role,leakage_status,reason,available_before_prediction
+clinical_mastitis_cows,class1,TARGET,LEAKAGE,Direct outcome,No
+cow_milk_mastitis,SCC,FEATURE,CONDITIONAL,May be taken concurrently with diagnosis,Depends on timestamp
+cow_milk_mastitis,pH,FEATURE,CONDITIONAL,May be taken concurrently with diagnosis,Depends on timestamp
+cow_milk_mastitis,Conductivity,FEATURE,SAFE,Live telemetry,Yes
+cow_milk_mastitis,Yield,FEATURE,SAFE,Live telemetry,Yes

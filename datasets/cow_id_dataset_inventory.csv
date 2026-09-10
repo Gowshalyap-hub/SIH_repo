@@ -1,0 +1,3 @@
+dataset_name,file_path,row_count,column_count,cow_id_column,number_of_unique_cows,date_column,day_column,mastitis_label_column,milk_columns,scc_columns,ph_columns,temperature_columns,conductivity_columns,other_relevant_columns
+archive (7),archive (7)\cow_milk_mastitis_dataset.csv,800,9,Cow_ID,800,,Day,class1,"Milk_Temperature, Milk_pH, Milk_Conductivity, Milk_Yield",,Milk_pH,Milk_Temperature,Milk_Conductivity,
+Clinical_Mastitis_cows_version2,Clinical_Mastitis_cows_version2\Clinical_Mastitis_cows_version2\clinical_mastitis_cows.csv,6600,18,Cow_ID,1100,,Day,class1,Milk_visibility,,,Temperature,,

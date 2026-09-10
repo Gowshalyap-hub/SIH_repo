@@ -1,0 +1,10 @@
+column,data_type,role,include_in_baseline,reason,source
+Cow_ID,str,ID,NO,Identifier,raw
+Day,int64,UNKNOWN,NO,Invalid placeholder temporal data,raw
+Milk_Temperature,float64,LIVE MILK FEATURE,YES,"Matches expected live telemetry (Yield, Temp, Conductivity)",raw
+Milk_pH,float64,LAB/DIAGNOSTIC,NO,Diagnostic measurement (Leakage),raw
+Milk_Conductivity,float64,LIVE MILK FEATURE,YES,"Matches expected live telemetry (Yield, Temp, Conductivity)",raw
+Somatic_Cell_Count,int64,LAB/DIAGNOSTIC,NO,Diagnostic measurement (Leakage),raw
+Milk_Yield,float64,LIVE MILK FEATURE,YES,"Matches expected live telemetry (Yield, Temp, Conductivity)",raw
+Clotting,int64,CLINICAL SIGN,NO,"Subjective visual diagnostic sign, not a SmartCup automated sensor reading",raw
+class1,int64,TARGET,NO as feature (Yes as Target),Target variable,raw

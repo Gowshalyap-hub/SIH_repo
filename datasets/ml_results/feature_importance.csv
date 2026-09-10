@@ -1,0 +1,4 @@
+feature,importance,method
+Milk_Conductivity,2.151304068499409,logistic_regression_coefficients_magnitude
+Milk_Temperature,2.019383718458425,logistic_regression_coefficients_magnitude
+Milk_Yield,1.6601811446287307,logistic_regression_coefficients_magnitude

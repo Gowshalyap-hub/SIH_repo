@@ -1,0 +1,7 @@
+model,split,accuracy,precision,recall,f1,roc_auc,pr_auc,tn,fp,fn,tp
+LogisticRegression,validation,1.0,1.0,1.0,1.0,1.0,1.0,94,0,0,26
+LogisticRegression,test,1.0,1.0,1.0,1.0,1.0,1.0,95,0,0,25
+RandomForest,validation,1.0,1.0,1.0,1.0,1.0,1.0,94,0,0,26
+RandomForest,test,1.0,1.0,1.0,1.0,1.0,1.0,95,0,0,25
+HistGradientBoosting,validation,1.0,1.0,1.0,1.0,1.0,1.0,94,0,0,26
+HistGradientBoosting,test,0.9916666666666667,1.0,0.96,0.9795918367346939,0.9974736842105264,0.987027027027027,95,0,1,24

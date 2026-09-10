@@ -1,0 +1,6 @@
+master_column,source,transformation,reason,leakage_risk,required
+Cow_ID,All,none,Primary key,SAFE,Yes
+Date,All,none,Temporal key,SAFE,Yes
+Target_Mastitis_7d,clinical_mastitis_cows.csv (class1),shift -7 days,Forecasting target,TARGET,Yes
+Daily_Milk_Yield,milk/ cow_milk_mastitis,sum daily,Feature,SAFE,No
+Daily_Avg_Activity,ankle_accel/behavior,mean daily,Feature,SAFE,No

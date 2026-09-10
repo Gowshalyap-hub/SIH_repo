@@ -1,0 +1,7 @@
+metric,mean,std
+Accuracy,1.0,0.0
+Precision,1.0,0.0
+Recall,1.0,0.0
+F1,1.0,0.0
+ROC-AUC,1.0,0.0
+PR-AUC,1.0,0.0

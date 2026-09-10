@@ -1,0 +1,21 @@
+{
+    "random_seed": 42,
+    "dataset_path": "c:\\Users\\gowth\\Desktop\\SIH\\datasets\\ml_ready\\current_state_baseline.csv",
+    "feature_list": [
+        "Milk_Temperature",
+        "Milk_Conductivity",
+        "Milk_Yield"
+    ],
+    "target": "class1",
+    "split_ratios": {
+        "train": 0.7,
+        "val": 0.15,
+        "test": 0.15
+    },
+    "model_names": [
+        "LogisticRegression",
+        "RandomForest",
+        "HistGradientBoosting"
+    ],
+    "timestamp": "2026-09-07T11:20:26.959711"
+}
